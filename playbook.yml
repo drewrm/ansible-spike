@@ -1,0 +1,6 @@
+---
+- hosts: precise64
+  user: vagrant
+  sudo: yes
+  tasks: 
+  - include: playbooks/activemq/activemq.yml

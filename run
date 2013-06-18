@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+vagrant status | grep running > /dev/null 2>&1
+if [ $? -ne 0 ]; then 
+  vagrant up
+else
+  vagrant provision
+fi
