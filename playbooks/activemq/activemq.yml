@@ -7,4 +7,3 @@
   template: src=playbooks/activemq/templates/activemq.xml.j2 dest=/etc/activemq/instances-available/main/activemq.xml
 - name: Boot ActiveMQ
   service: name=activemq state=running enabled=yes
-# (END OF DOCUMENT)

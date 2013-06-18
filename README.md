@@ -1,6 +1,4 @@
-Chef / Vagrant Example
+Ansible / Vagrant Example
 ======================
 
-Provision ActiveMQ + MCollective using Chef Solo
-
-
+Messing about with Ansible.
